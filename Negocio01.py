@@ -73,7 +73,7 @@ class NegocioSocio(object):
         Devuelve listado de todos los socios.
         :rtype: list
         """
-        socios=self.datos.borrar_todos()
+        socios=self.datos.todos()
 
         return socios
 
